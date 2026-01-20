@@ -5,7 +5,12 @@
 <template>
   <header class="border-b border-gray-300 bg-white">
     <div class="flex justify-between items-center max-w-4xl mx-auto h-16">
-      <h1 class="font-bold text-2xl cursor-pointer">Блог</h1>
+      <RouterLink
+        to="/"
+        class="font-bold text-2xl cursor-pointer hover:border-b border-black cursor-pointer pb-1"
+      >
+        Блог
+      </RouterLink>
       <ul class="flex gap-6">
         <li>
           <RouterLink
